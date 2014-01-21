@@ -1,0 +1,50 @@
+<!DOCTYPE  html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<title>Super Fight Pals</title>
+		
+		<!-- Styles -->
+		<link href="ui/css/core.css" media="all"  rel="stylesheet"  type="text/css" />
+		
+		<!-- jQuery -->
+		<script type="text/javascript" src="core/js/lib/jquery-1.8.2.js"></script>
+		
+		<!-- JavaScript-->
+		<script type="text/javascript" src="core/js/lib/gl_Math.js"></script>
+		<script type="text/javascript" src="core/js/lib/gl_Util.js"></script>
+		<script type="text/javascript" src="core/js/lib/instance.js"></script>
+		<script type="text/javascript" src="core/js/lib/avatar.js"></script>
+		<script type="text/javascript" src="core/js/lib/skybox.js"></script>
+		<script type="text/javascript" src="core/js/lib/camera.js"></script>
+		<!-- Main -->
+		<script type="text/javascript" src="core/js/sfp/scene.js"></script>
+		<script type="text/javascript" src="core/js/index.js"></script>
+		
+	</head>
+	<body>
+		<div>
+			<!-- WebGL Context -->
+			<div>
+				<canvas class="webgl-Canvas" width="900" height="555" id="glContext">
+
+				</canvas>
+			</div>
+
+			<div id="popup" class="popup-visible">
+				<div class="wrapper-popup">
+					<h2>Welcome!</h2>
+					<h3>Please Select a Character</h3>
+					<button value="mickey" onclick="client.scene.addUser(this.value);">MICKEY</button>
+					<button value="frieza" onclick="client.scene.addUser(this.value);">FRIEZA</button>
+				</div>
+			</div>
+		</div>
+
+        <!--
+		<div class="fps">
+			<span>FPS: </span> <span id="fps">0</span>
+		</div>
+		-->
+	</body>
+</html>

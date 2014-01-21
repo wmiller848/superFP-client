@@ -1,0 +1,79 @@
+body 
+{
+	background-color: #FFFFFF;
+    margin: 0px!important;
+}
+
+.webgl-Canvas
+{	
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 900px;
+	height: 555px;
+	z-index: 0;
+	/* OpenGL Transparency is set as base canvas color */
+    background-color: black;
+}
+
+.fps
+{
+	position: absolute;
+	
+	z-index: 103;
+	
+	color: black;
+	
+	top: 580px;
+	left: 430px;
+	
+	width: 50px;
+	height: 15px;
+}
+
+.popup-invisible 
+{
+	display: none;
+}
+
+.popup-visible 
+{
+	display: block;
+	
+	z-index: 100;
+	
+	text-align: center;
+	
+	top: 0px;
+	left: 0px;
+	
+	width: 910px;
+	height: 565px;
+	
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: clear;
+	overflow: hidden;
+}
+
+.wrapper-popup 
+{
+	z-index: 101;
+	position: absolute;
+	
+	padding: 10px;
+	
+	top: 250px;
+	left: 350px;
+	
+	width: 200px;
+	height: 150px;
+	
+	background-color: white;
+	background-position: no-repeat;
+	
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	-webkit-border-radius:15px;
+}
+

@@ -1,0 +1,8 @@
+friezaIdle_Left = 0 0 198 51
+friezaIdle_Right = 0 51 198 51
+friezaWalk_Left = 0 166 176 47
+friezaWalk_Right = 198 0 176 47
+mikeyIdle_Left = 0 213 168 32
+mikeyIdle_Right = 198 47 168 32
+mikeyWalk_Left = 0 102 192 32
+mikeyWalk_Right = 0 134 192 32

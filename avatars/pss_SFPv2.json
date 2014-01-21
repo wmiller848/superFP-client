@@ -1,0 +1,43 @@
+{
+	"FRIEZA" :
+	{
+		"name" : "frieza",
+		"idle" :
+		{
+			"spriteCount" : 6,
+			"spriteWidth" : 34,
+			"spriteHeight" : 51,
+			"left" : [0, 98],
+			"right" : [0, 151]
+		},
+		"walk" :
+		{
+			"spriteCount" : 4,
+			"spriteWidth" : 45,
+			"spriteHeight" : 47,
+			"left" : [206, 132],
+			"right" : [206, 181]
+		}
+	},
+	"MICKEY" :
+	{
+		"name" : "mickey",
+		"idle" :
+		{
+			"spriteCount" : 7,
+			"spriteWidth" : 25,
+			"spriteHeight" : 32,
+			"left" : [0, 238],
+			"right" : [0, 272]
+		},
+		"walk" :
+		{
+			"spriteCount" : 8,
+			"spriteWidth" : 25,
+			"spriteHeight" : 32,
+			"left" : [0, 204],
+			"right" : [206, 98]
+		}
+	}
+	
+}

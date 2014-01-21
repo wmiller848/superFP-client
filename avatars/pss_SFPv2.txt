@@ -1,0 +1,12 @@
+frieza_AttackWeak_Left = 0 0 406 47
+frieza_AttackWeak_Right = 0 49 406 47
+frieza_Idle_Left = 0 98 204 51
+frieza_Idle_Right = 0 151 204 51
+frieza_Walk_Left = 206 132 180 47
+frieza_Walk_Right = 206 181 180 47
+mickey_AttackWeak_Left = 0 306 125 32
+mickey_AttackWeak_Right = 0 340 125 32
+mickey_Idle_Left = 0 238 175 32
+mickey_Idle_Right = 0 272 175 32
+mickey_Walk_Left = 0 204 200 32
+mickey_Walk_Right = 206 98 200 32
