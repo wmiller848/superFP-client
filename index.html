@@ -23,28 +23,25 @@
 		
 	</head>
 	<body>
-		<div>
-			<!-- WebGL Context -->
-			<div>
-				<canvas class="webgl-Canvas" width="900" height="555" id="glContext">
+        <!-- WebGL Context -->
+        <div>
+            <canvas class="webgl-Canvas" width="900px" height="550px" id="glContext">
+            </canvas>
+        </div>
 
-				</canvas>
-			</div>
-
-			<div id="popup" class="popup-visible">
-				<div class="wrapper-popup">
-					<h2>Welcome!</h2>
-					<h3>Please Select a Character</h3>
-					<button value="mickey" onclick="client.scene.addUser(this.value);">MICKEY</button>
-					<button value="frieza" onclick="client.scene.addUser(this.value);">FRIEZA</button>
-				</div>
-			</div>
-		</div>
+        <div id="popup" class="popup-visible">
+            <div class="wrapper-popup">
+                <h2>Welcome!</h2>
+                <h3>Please Select a Character</h3>
+                <button value="mickey" onclick="client.scene.addUser(this.value);">MICKEY</button>
+                <button value="frieza" onclick="client.scene.addUser(this.value);">FRIEZA</button>
+            </div>
+        </div>
 
         <!--
-		<div class="fps">
-			<span>FPS: </span> <span id="fps">0</span>
-		</div>
-		-->
+        <div class="fps">
+            <span>FPS: </span> <span id="fps">0</span>
+        </div>
+        -->
 	</body>
 </html>

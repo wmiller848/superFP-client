@@ -25,7 +25,7 @@ var cameraScroll = function(keyHandler)
 cameraScroll.prototype.init = function(canvas) 
 {
 	var self = this,
-    lastX,lastY;  
+    lastX,lastY;
 	// Set up the appropriate event hooks
 	// Set up the appropriate event hooks
    	document.addEventListener("keydown", function (event) {
@@ -94,15 +94,17 @@ cameraScroll.prototype.init = function(canvas)
   	
   	canvas.addEventListener('mousewheel',function(event) 
   	{
-  		var speed = -event.wheelDelta;
+        event.preventDefault();
   		/*
-  		self.distance += speed/self.zoomSpeed;
-     	self.dirty = true;
+        var speed = -event.wheelDelta;
+        self.distance += speed/self.zoomSpeed;
      	*/
-  	},false);
+        self.dirty = true;
+    },false);
   	
   	canvas.addEventListener('DOMMouseScroll',function(event) 
-  	{	
+  	{
+        event.preventDefault();
   		/*
   		var speed = event.detail*30;
   		self.distance += speed/self.zoomSpeed;
